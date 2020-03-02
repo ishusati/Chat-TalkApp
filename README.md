@@ -5,11 +5,26 @@ TalkApp Chat for iOS is a real time chat app written in Swift 5.1 using Firebase
 TalkApp Chat allows to send and receive text messages, status, userblock, camera, image customizer, photos, location & statusdelete automatic for 24 hours.
 
 <h3 align="center">                 
-<img src="ScreenShot/Chat.Gif.gif" height="500">           <img src="ScreenShot/Home.Gif.gif" height="500">           <img src="ScreenShot/Home.Gif.gif" height="500">
-</h3>                                                                                                   
-                                                                                        
-      
+<img src="ScreenShot/Home.Gif.gif" height="500">           <img src="ScreenShot/Status.Gif.gif" height="500">           <img src="ScreenShot/Camera.Gif.gif" height="500">
+</h3>
 
+<h3 align="center">                 
+<img src="ScreenShot/Chat2.Gif.gif" height="500">           <img src="ScreenShot/ImageFullSize.Gif.gif" height="500">           <img src="ScreenShot/Map.Gif.gif" height="500">
+</h3> 
+
+<h3 align="center">                 
+<img src="ScreenShot/Profile.Gif.gif" height="500">           <img src="ScreenShot/Frind.Gif.gif" height="500">           <img src="ScreenShot/Block.Gif.gif" height="500">
+</h3> 
+
+<h3 align="center">                 
+<img src="ScreenShot/StatusDetails.Gif.gif" height="500">           <img src="ScreenShot/StatusDelete.Gif.gif" height="500">           <img src="ScreenShot/CropImage.Gif.gif" height="500">
+</h3> 
+
+<h3 align="center">                 
+<img src="ScreenShot/Chat.Gif.gif" height="500">           <img src="ScreenShot/SignIn.Gif.gif" height="500">           <img src="ScreenShot/SignUp.Gif.gif" height="500">
+</h3> 
+                                                                                
+                                                                                
 
 ## Getting Started
 
