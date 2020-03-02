@@ -4,8 +4,6 @@ Talk Chat for iOS is a real time chat app written in Swift 5.1 using Firebase.
 
 Talk Chat allows to send and receive text messages, status, userblock, camera, image customizer, photos, location & statusdelete automatic for 24 hours.
 
-[![Swift 5.1](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://swift.org)
-
 <h3 align="center">                 
 <img src="ScreenShot/Home.Gif.gif" height="500">           <img src="ScreenShot/Status.Gif.gif" height="500">           <img src="ScreenShot/Camera.Gif.gif" height="500">
 </h3>
