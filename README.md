@@ -53,7 +53,7 @@ Talk Chat for iOS is compatible with iOS 13.0+.
 
 ## Contact
 
-[![Twitter: @aslanyanhaik](https://img.shields.io/badge/Contact-Twitter-blue.svg?style=flat)](https://twitter.com/aslanyanhaik)
+[![![iconfinder_linkedin_294671](https://user-images.githubusercontent.com/59617526/75701534-d0f08800-5c68-11ea-896c-761e3049298a.png))](https://www.linkedin.com/in/yusuf-sati-09913217b)
 
 
 Copyright 2020 Yusuf Sati.
