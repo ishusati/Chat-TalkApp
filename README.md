@@ -52,8 +52,6 @@ Talk Chat for iOS is compatible with iOS 13.0+.
 * [Yusuf Sati](https://www.linkedin.com/in/yusuf-sati-09913217b)
 
 ## Contact
-
-![iconfinder_linkedin_294671](https://user-images.githubusercontent.com/59617526/75701534-d0f08800-5c68-11ea-896c-761e3049298a.png)
-
+![294671-128](https://user-images.githubusercontent.com/59617526/75702772-f8485480-5c6a-11ea-9037-70c3d4128981.png)
 
 Copyright 2020 Yusuf Sati.
