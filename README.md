@@ -4,8 +4,8 @@ TalkApp Chat for iOS is a real time chat app written in Swift 5.1 using Firebase
 
 TalkApp Chat allows to send and receive text messages, status, userblock, camera, image customizer, photos, location & statusdelete automatic for 24 hours.
 
-<h3 align="center">
-<img src="ScreenShot/Block.Gif.gif" alt="Screenshot of Quick Chat for iOS" />
+<h3 align="left">
+<img src="ScreenShot/Block.Gif.gif">
 </h3>
 
 ## Getting Started
