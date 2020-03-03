@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ptZ-D2-pIK">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="EtelkaMediumPro-Bold.ttf">
+            <string>EtelkaMediumPro-Bold</string>
+        </array>
+        <array key="Wicked-Mouse.ttf">
+            <string>WickedMouse</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--ProfileVC-->
+        <scene sceneID="U2o-gb-vJe">
+            <objects>
+                <viewController storyboardIdentifier="ProfileVC" id="ptZ-D2-pIK" customClass="ProfileVC" customModule="TalkApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ird-ae-Pfl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDI-Mu-QDg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BGp-ay-fTq">
+                                <rect key="frame" x="40" y="109" width="240" height="350"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LbF-Tk-Ntw">
+                                        <rect key="frame" x="70" y="40" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="LbF-Tk-Ntw" secondAttribute="height" multiplier="1:1" id="FFM-LP-jcJ"/>
+                                            <constraint firstAttribute="height" constant="100" id="joo-7R-DOb"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFs-vX-Io2">
+                                        <rect key="frame" x="70" y="40" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="uFs-vX-Io2" secondAttribute="height" multiplier="1:1" id="Z2i-Ro-RYa"/>
+                                            <constraint firstAttribute="height" constant="100" id="fnM-0D-Scr"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="btnProfileUpdate:" destination="ptZ-D2-pIK" eventType="touchUpInside" id="hCn-3M-zjW"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cH-PT-kbg">
+                                        <rect key="frame" x="10" y="170" width="220" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="OWp-0c-bce"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="EtelkaMediumPro-Bold" family="Etelka Medium Pro" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cCn-v2-V0I">
+                                        <rect key="frame" x="10" y="205" width="220" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="bOT-90-mVk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="EtelkaMediumPro-Bold" family="Etelka Medium Pro" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuA-kD-FPt">
+                                        <rect key="frame" x="10" y="240" width="220" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="jMJ-T2-3rF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="EtelkaMediumPro-Bold" family="Etelka Medium Pro" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51E-f6-sTY">
+                                        <rect key="frame" x="30" y="295" width="180" height="35"/>
+                                        <color key="backgroundColor" red="0.61568627450000002" green="0.46666666670000001" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="FiB-qc-Ad5"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="WickedMouse" family="Wicked Mouse" pointSize="17"/>
+                                        <state key="normal" title="LogOut">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnCancel:" destination="ptZ-D2-pIK" eventType="touchUpInside" id="lj0-vN-LcN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0o-zK-Fas">
+                                        <rect key="frame" x="195" y="10" width="30" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="P0o-zK-Fas" secondAttribute="height" multiplier="1:1" id="epO-g6-vHp"/>
+                                            <constraint firstAttribute="height" constant="30" id="tpE-Jp-i4R"/>
+                                        </constraints>
+                                        <state key="normal" image="close">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnIsConnect:" destination="ptZ-D2-pIK" eventType="touchUpInside" id="QIm-OG-XVr"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="51E-f6-sTY" firstAttribute="leading" secondItem="BGp-ay-fTq" secondAttribute="leading" constant="30" id="03b-pv-HOX"/>
+                                    <constraint firstAttribute="trailing" secondItem="cCn-v2-V0I" secondAttribute="trailing" constant="10" id="28x-rN-C7t"/>
+                                    <constraint firstItem="cCn-v2-V0I" firstAttribute="top" secondItem="4cH-PT-kbg" secondAttribute="bottom" constant="10" id="3gq-TB-hWc"/>
+                                    <constraint firstItem="4cH-PT-kbg" firstAttribute="leading" secondItem="BGp-ay-fTq" secondAttribute="leading" constant="10" id="44y-If-BPl"/>
+                                    <constraint firstItem="uFs-vX-Io2" firstAttribute="top" secondItem="BGp-ay-fTq" secondAttribute="top" constant="40" id="4oB-0a-U0I"/>
+                                    <constraint firstAttribute="height" constant="350" id="6n6-Kt-U37"/>
+                                    <constraint firstAttribute="trailing" secondItem="tuA-kD-FPt" secondAttribute="trailing" constant="10" id="9vu-lJ-psY"/>
+                                    <constraint firstItem="4cH-PT-kbg" firstAttribute="top" secondItem="LbF-Tk-Ntw" secondAttribute="bottom" constant="30" id="CLm-Z2-FWE"/>
+                                    <constraint firstItem="tuA-kD-FPt" firstAttribute="top" secondItem="cCn-v2-V0I" secondAttribute="bottom" constant="10" id="CfC-ac-HMj"/>
+                                    <constraint firstItem="LbF-Tk-Ntw" firstAttribute="top" secondItem="BGp-ay-fTq" secondAttribute="top" constant="40" id="ME7-8N-i8g"/>
+                                    <constraint firstItem="cCn-v2-V0I" firstAttribute="leading" secondItem="BGp-ay-fTq" secondAttribute="leading" constant="10" id="V6s-s9-g1C"/>
+                                    <constraint firstItem="LbF-Tk-Ntw" firstAttribute="centerX" secondItem="BGp-ay-fTq" secondAttribute="centerX" id="XoN-zD-FMb"/>
+                                    <constraint firstItem="uFs-vX-Io2" firstAttribute="centerX" secondItem="BGp-ay-fTq" secondAttribute="centerX" id="ZBC-mE-oHQ"/>
+                                    <constraint firstItem="51E-f6-sTY" firstAttribute="top" secondItem="tuA-kD-FPt" secondAttribute="bottom" constant="30" id="dfH-Mc-P7x"/>
+                                    <constraint firstAttribute="trailing" secondItem="P0o-zK-Fas" secondAttribute="trailing" constant="15" id="i2j-3I-AoG"/>
+                                    <constraint firstItem="P0o-zK-Fas" firstAttribute="top" secondItem="BGp-ay-fTq" secondAttribute="top" constant="10" id="ilL-7e-c5y"/>
+                                    <constraint firstAttribute="trailing" secondItem="4cH-PT-kbg" secondAttribute="trailing" constant="10" id="ila-L3-ddS"/>
+                                    <constraint firstAttribute="trailing" secondItem="51E-f6-sTY" secondAttribute="trailing" constant="30" id="xm3-zB-h9r"/>
+                                    <constraint firstItem="tuA-kD-FPt" firstAttribute="leading" secondItem="BGp-ay-fTq" secondAttribute="leading" constant="10" id="ydl-eB-8rM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="IDI-Mu-QDg" firstAttribute="top" secondItem="Ird-ae-Pfl" secondAttribute="top" id="6oh-Lz-ND7"/>
+                            <constraint firstAttribute="bottom" secondItem="IDI-Mu-QDg" secondAttribute="bottom" id="D2q-xJ-whA"/>
+                            <constraint firstItem="BGp-ay-fTq" firstAttribute="leading" secondItem="WKS-Qk-IY3" secondAttribute="leading" constant="40" id="F1n-JF-Pls"/>
+                            <constraint firstItem="WKS-Qk-IY3" firstAttribute="trailing" secondItem="IDI-Mu-QDg" secondAttribute="trailing" id="H5b-GT-WVw"/>
+                            <constraint firstItem="BGp-ay-fTq" firstAttribute="centerY" secondItem="IDI-Mu-QDg" secondAttribute="centerY" id="Sw3-fB-M5x"/>
+                            <constraint firstItem="IDI-Mu-QDg" firstAttribute="leading" secondItem="WKS-Qk-IY3" secondAttribute="leading" id="Z75-aA-FL9"/>
+                            <constraint firstItem="BGp-ay-fTq" firstAttribute="centerX" secondItem="IDI-Mu-QDg" secondAttribute="centerX" id="yvA-nd-XEl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WKS-Qk-IY3"/>
+                    </view>
+                    <connections>
+                        <outlet property="AnimationContraint" destination="Sw3-fB-M5x" id="Cpm-zg-v32"/>
+                        <outlet property="BaseView" destination="BGp-ay-fTq" id="wJx-Bl-abu"/>
+                        <outlet property="ProfileImage" destination="LbF-Tk-Ntw" id="bRC-12-nVo"/>
+                        <outlet property="btnBackground" destination="IDI-Mu-QDg" id="hFO-xm-LVM"/>
+                        <outlet property="btnCancel" destination="51E-f6-sTY" id="lfJ-7d-bXn"/>
+                        <outlet property="btnConnect" destination="P0o-zK-Fas" id="iOz-os-wjw"/>
+                        <outlet property="lblEmail" destination="cCn-v2-V0I" id="iCH-bd-ELZ"/>
+                        <outlet property="lblPhone" destination="tuA-kD-FPt" id="bGO-t3-xYh"/>
+                        <outlet property="lblUserName" destination="4cH-PT-kbg" id="Js7-qd-Jur"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NpH-N4-gzr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2512.5" y="761.61971830985919"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="close" width="50" height="50"/>
+    </resources>
+</document>

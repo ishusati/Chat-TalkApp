@@ -1,0 +1,6 @@
+framework module Pods_TalkApp {
+  umbrella header "Pods-TalkApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

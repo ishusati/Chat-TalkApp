@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TalkApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+
+pod 'JSQMessagesViewController'
+pod 'NVActivityIndicatorView'
+pod 'StatusAlert'
+
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Storage'
+pod 'Firebase/Firestore'
+pod 'Firebase/Messaging'
+pod 'Firebase/Database'
+pod 'Kingfisher'
+
+pod 'Parchment'
+pod 'iOSPhotoEditor'
+
+  # Pods for TalkApp
+
+end
